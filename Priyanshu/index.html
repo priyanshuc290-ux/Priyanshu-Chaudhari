@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PastelRose Portfolio | Theme Toggle</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header class="main-header">
+      <nav class="navbar container">
+        <div class="logo">Priyanshu Chaudhari <span class="accent-dot">.</span></div>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <button id="themeToggle" class="theme-toggle-btn" aria-label="Switch theme">
+            <i class="fas fa-moon"></i> <span>Dark</span>
+          </button>
+          <div class="mobile-menu-btn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="hero-badge">✨ Pastel aesthetic</span>
+            <h1 class="hero-title">Building digital<br>experiences that<span class="gradient-text"> bloom</span></h1>
+            <p class="hero-subtitle">Crafting high-performance web apps with modern stacks & pastel vibes. Let's turn
+              bold ideas into interactive reality.</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-secondary">Contact Me <i class="fas fa-comment"></i></a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="floating-shape"></div>
+            <div class="floating-shape two"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Portfolio</span>
+            <h2>Featured <span class="accent-text">Projects</span></h2>
+            <p>Selected works built with love and translucent elegance.</p>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="card-img-wrapper">
+                <img src="Media/Alex.png" alt="Portfolio">
+
+              </div>
+              <div class="card-body">
+                <h3>Portfolio</h3>
+                <p>Minimal client management system with dusty blues and rose accents.</p>
+                <div class="card-buttons">
+                  <a href="#" class="card-link"><i class="fab fa-github"></i> GitHub</a>
+                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  <a href="https://69ef6f45b9ba3547d19c6ede--helpful-donut-897537.netlify.app/" class="card-link live"><i class="fas fa-external-link-alt"></i>Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-img-wrapper">
+                <img src="Media/Pharma.png" alt="Pharma Web">
+              </div>
+              <div class="card-body">
+                <h3>Pharma Web</h3>
+                <p> Creative Pharma website for visual artists with pastel gradients & smooth interactions.</p>
+                <div class="card-buttons">
+                  <a href="#" class="card-link"><i class="fab fa-github"></i> GitHub</a>
+                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  <a href="https://69f071bda568a9e6e7b6a36c--papaya-otter-8ae76d.netlify.app/" class="card-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="card-img-wrapper">
+                <img src="Media/Arvix.png" alt="Airy Weather">
+              </div>
+              <div class="card-body">
+                <h3>Arvix</h3>
+                <p>Camera DJ Cars Events booking platform with seamless integration.</p>
+                <div class="card-buttons">
+                  <a href="#" class="card-link"><i class="fab fa-github"></i> GitHub</a>
+                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                  <a href="#" class="card-link live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-header center">
+            <span class="section-tag">Expertise</span>
+            <h2>Pastel <span class="accent-text">Toolkit</span></h2>
+            <p>Modern stacks that power my creative workflow.</p>
+          </div>
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skill-tags">
+                <span>React</span><span>JavaScript</span><span>Tailwind</span><span>Next.js</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skill-tags">
+                <span>Node.js</span><span>SQL</span><span>MongoDB</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Tools</h3>
+              <div class="skill-tags">
+                <span>Git</span><span>Figma</span><span>Docker</span><span>Vercel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-grid">
+          <div class="about-text">
+            <span class="section-tag">Who I am</span>
+            <h2>Soft code,<span class="accent-text"> strong impact</span></h2>
+            <p>I’m Priyanshu Chaudhari, a full stack developer building fast and responsive web applications.
+              Skilled in React, Node.js, and modern web technologies, I focus on clean UI and scalable solutions.</p>
+            <div class="about-stats">
+              <div><strong>3+</strong><br>Projects</div>
+              <div><strong>1+</strong><br>Clients</div>
+              <div><strong>100%</strong><br>Dedication</div>
+            </div>
+            <a href="#contact" class="btn btn-primary outline-light">Let's connect <i
+                class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+          <div class="about-image">
+            <div class="image-frame">
+              <img src="Media/PRIYANSHU.IMG.png" alt="Priyanshu Chaudhari  portrait">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container contact-grid">
+          <div class="contact-info">
+            <span class="section-tag">Get in touch</span>
+            <h2>Let's paint<span class="accent-text"> together</span></h2>
+            <p>Have a concept in mind? I'm just a message away.</p>
+            <div class="direct-email">
+              <i class="fas fa-envelope"></i>
+              <span>Priyanshuc290@gmail.com</span>
+            </div>
+            <div class="social-mini">
+              <a href="https://github.com/priyanshuc290-ux" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/priyanshu-chaudhari-a806a2336/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/codey_bhai?igsh=a2IwZm4xMzd5cHM2" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <form action="https://submit-form.com/ivjgyt7KY" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" placeholder="Aria Rose" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="hello@pastel.dev" required>
+            </div>
+            <div class="form-group">
+              <label for="msg">Message</label>
+              <textarea id="msg" rows="5" placeholder="Tell me about your dream project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Send message <i
+                class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2025 Priyanshu Chaudhari — built with <i class="fas fa-heart" style="color: #D4A5A5;"></i> &
+          one‑click theme magic</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      const themeBtn = document.getElementById('themeToggle');
+      const icon = themeBtn.querySelector('i');
+      const btnTextSpan = themeBtn.querySelector('span');
+
+      function setTheme(theme) {
+        if (theme === 'dark') {
+          document.body.classList.add('dark-theme');
+          localStorage.setItem('portfolio-theme', 'dark');
+          if (icon) {
+            icon.className = 'fas fa-sun';
+            btnTextSpan.innerText = 'Light';
+          }
+        } else {
+          document.body.classList.remove('dark-theme');
+          localStorage.setItem('portfolio-theme', 'light');
+          if (icon) {
+            icon.className = 'fas fa-moon';
+            btnTextSpan.innerText = 'Dark';
+          }
+        }
+      }
+
+      const savedTheme = localStorage.getItem('portfolio-theme');
+      if (savedTheme === 'dark') {
+        setTheme('dark');
+      } else {
+        setTheme('light');
+      }
+
+      themeBtn.addEventListener('click', () => {
+        const isDark = document.body.classList.contains('dark-theme');
+        if (isDark) setTheme('light');
+        else setTheme('dark');
+      });
+
+      const menuBtn = document.querySelector('.mobile-menu-btn');
+      const navLinks = document.querySelector('.nav-links');
+      if (menuBtn && navLinks) {
+        menuBtn.addEventListener('click', () => navLinks.classList.toggle('show'));
+        document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('show')));
+      }
+    })();
+  </script>
+</body>
+
+</html>
